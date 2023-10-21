@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+*{
+            
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Ubuntu";
+  }
+  .container-full{
+    border: 0.5em solid rgb(38, 38, 39);
+    margin:0.5em 36.8em 0.5em 35em;
+  }
+  .container{
+    
+    margin:4rem 4rem 6rem 6rem;
+  }
+  .head-info{
+    width: 50%;
+    float: left;
+    line-height: 2;
+    font-size: 1.5em;
+    font-weight: 700;
+    word-spacing: 0.4em;
+  }
+  
+  .head-img{
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+.head img{
+  border: 0.1em solid black;
+}
+  .head::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .objective{
+    margin-top: 2em;
+  }
+  .heading-blue{
+    background-color:  #a3c0fb;
+    padding-left: 0.2em;
+  }
+  .obj{
+    padding: 2em 0 ;
+    line-height: 1.5;
+    font-size: 1.4em;
+    font-weight: 500; 
+    word-spacing: 0.5em;
+  }
+  ul{
+    margin: 2em 0;
+  }
+  ul li{
+    
+    word-spacing: 0.5em;
+    line-height: 1.8;
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+  table tr td{
+ padding: 0.4em 0;
+  }
+  .date{
+    padding-top: 1.5em;
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .sign{
+    width: 50%;
+    float: right;
+    text-align: center;
+  }
+  .footer::after{
+    content:"";
+    display:block;
+    clear: both;
+  }
+  .footer img{
+    height: 3em;
+    width: 6em;
+    
+  }
